@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 2.5px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #070707, #080808, #0a0a0a, #0b0b0b, #0c0c0c, #0d0d0d, #0e0e0e, #0f0f0f, #101010, #121212, #131313, #141414);
+}
+
+/* GLOBAL */
+.btn, .input {
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    padding: .5rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover, .input:hover {
+    opacity: 93%;
+}
+
+
+form {
+    padding: 0px 0px 10px 0px;
+}
+
+.input {
+    cursor: text;
+}
+
+.btn {
+    background-color: #ff392e;
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.todo-wrapper {
+    padding: 10px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todo-form {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userWrapper {
+    width: 330px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.singleTodo {
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0px 1px 3px #ff392e;
+}
+
+.singleTodo p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.todo-winner-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.todo-winner{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.todo-winner span {
+    text-transform: uppercase;
+    color: #ff392e;
+    cursor: pointer;
+}
+
+.todo-winner button{
+    width: 80%;
+    margin: 20px 0px 0px 0px;
+}
+
+.d-none {
+    display: none;
+}
